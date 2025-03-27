@@ -5,7 +5,10 @@ import matplotlib.pyplot as plt
 import plotly.express as px
 import streamlit as st
 
-data = pd.read_csv("C:/Users/ikadd/OneDrive/Desktop/car_prices.csv")
+
+
+data = pd.read_csv("https://raw.githubusercontent.com/ikaddogh/my-data/refs/heads/main/CAR_P.csv")
+
 
 df = pd.DataFrame(data)
 
